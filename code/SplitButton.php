@@ -24,7 +24,8 @@ class SplitButton extends TabSet
      * @param string $title Title that will be displayed on the split button.
      * if not provided, the title will be guess from the `$name`.
      */
-    public function __construct($name, $title=null) {
+    public function __construct($name, $title=null)
+    {
         $args = func_get_args();
         $name = array_shift($args);
 

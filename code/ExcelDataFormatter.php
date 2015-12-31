@@ -121,7 +121,6 @@ class ExcelDataFormatter extends DataFormatter
                     )
                     ->setAutoSize(true);
             }
-
         }
 
         return $excel;
